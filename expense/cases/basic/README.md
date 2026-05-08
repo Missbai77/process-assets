@@ -5,10 +5,10 @@
 
 ## 当前内容
 
-- ‘basic-info-channel.md’：信息传递类问题
-- ‘basic-responsibility-node.md’：责任节点类问题
-- ‘basic-rule-standard.md’：规则口径类问题
-- ‘basic-system-impleentation.md’：系统承接类问题
+- 'basic-info-channel.md'：信息传递类问题
+- 'basic-responsibility-node.md'：责任节点类问题
+- 'basic-rule-standard.md'：规则口径类问题
+- 'basic-system-implementation.md'：系统承接类问题
 
 ## 作用
 
