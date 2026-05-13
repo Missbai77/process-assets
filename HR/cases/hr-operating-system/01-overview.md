@@ -1,13 +1,59 @@
-For more details, please visit https://support.apple.com/kb/HT208050.
-Missbaimac:process-assets anna$ git status
-On branch main
-Your branch is up to date with 'origin/main'.
+# 总体设计
 
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-        HR/cases/hr-operating-system/
+## 管理目标
+- 招聘需求提出有依据
+- 招聘执行与入职衔接不断点
+- 员工状态全周期可跟踪
+- 人员档案贯穿全流程
+- 绩效、薪酬、成本能够联动分析
+- 人事管理结果可追溯、可复盘、可闭环
 
-nothing added to commit but untracked files present (use "git add" to track)
-Missbaimac:process-assets anna$ modified: HR/cases/hr-operating-system/README.md
-bash: modified:: command not found
-Missbaimac:process-assets anna$ 
+## 适用范围
+- 常规组织人事管理场景
+- 有招聘、入职、在职异动、离职管理需求的团队
+- 需要把绩效、薪酬、人员成本一起纳入管理的人事场景
+- 有项目参与人员，且需要区分部门与项目投入的人事管理场景
+
+## 核心管理对象
+- 招聘需求
+- 候选人
+- 人才库
+- 员工档案
+- 员工状态
+- 绩效结果
+- 薪酬结果
+- 人员成本归属
+- 部门绩效
+- 项目绩效
+
+## 管理口径说明
+- 招聘需求提出后，不直接进入执行，要先判断是否有效
+- 面试结果不是简单结束，而是进入“录用 / 人才库”分流
+- 员工入职后，不是流程终点，而是进入完整生命周期管理
+- 人员档案不是单独环节，而是从招聘到离职全程跟随
+- 薪酬核算、人员成本归集与分摊，需要和员工状态、部门、项目一起看
+- 绩效管理不能只看个人，还要区分部门绩效和项目绩效
+- AI时代下，绩效不再只看动作量和忙碌程度，更要看结果、效率、复用和组织效能
+
+## 总体流转主线
+招聘需求提出
+-> 招聘需求有效性判断
+-> 招聘执行
+-> 筛选简历
+-> 面试评估
+-> 录用判断
+   -> 不通过：进入人才库
+   -> 通过：进入入职流程
+-> 入职
+-> 试用期 / 转正
+-> 调岗 / 调薪
+-> 离职
+-> 薪酬核算与人员成本归集
+-> 绩效与组织效能复盘
+
+## 管理重点
+- 招聘需求是否真实成立
+- 面试与录用结果是否留痕
+- 员工从入职到离职是否全周期有记录
+- 档案、绩效、薪酬、成本是否能相互对应
+- 部门缺人，到底是编制问题、人效问题，还是项目短期波峰
