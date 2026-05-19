@@ -1,6 +1,3 @@
-`HR/cases/payroll-and-cost/01-overview.md`
-
-```md
 # 总体设计
 
 ## 管理目标与原则
