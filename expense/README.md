@@ -1,24 +1,25 @@
 # Expense
 
-费用专题。
+费用流程专题。
+
+这个专题用来沉淀费用相关流程的案例、方法和模板。
+
+它不是财务教材，也不是完整会计制度，而是用来整理：
+
+- 费用怎么分类
+- 报销怎么审核
+- 流程问题怎么判断
+- 哪些字段、节点、规则可以沉淀成模板
+- 哪些费用流程可以转成线上表单和审批
+
+---
 
 ## 目录结构
 
-- `cases/`：费用管理案例
-- `methods/`：费用管理方法
-- `templates/`：费用管理模板
-
-## 当前案例
-
-### `cases/biz-expense/`
-非项目制通用经营支出管理。
-
-### `cases/biz-expense-p/`
-项目型费用管理体系。
-
-## 阅读顺序
-
-1. `cases/biz-expense/`
-2. `cases/biz-expense-p/`
-3. `methods/`
-4. `templates/`
+```text
+expense
+├── cases
+│   ├── basic
+│   └── business
+├── methods
+└── templates
