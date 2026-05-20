@@ -52,9 +52,10 @@ process-assets
 
 下一阶段重点是补齐 HR 专题，尤其是：
 
-- `HR/cases/hr-operating-system/`
-- `HR/cases/employee-lifecycle/`
-- `HR/cases/payroll-and-cost/`
+- `HR/cases/A-hr-operating-system/`
+- `HR/cases/B-employee-lifecycle/`
+- `HR/cases/C-payroll-and-cost/`
+- `HR/cases/D-performance-and-org-effectiveness/`
 - `HR/methods/`
 - `HR/templates/`
 
